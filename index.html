@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -20,10 +21,10 @@
               <a class="nav-link"  href="index.html">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="profile.html">Profil</a>
+              <a class="nav-link" aria-current="page" href="About Me.html">Tentang Saya</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="About Me.html">About Me</a>
+              <a class="nav-link" aria-current="page" href="#kontak">kontak</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -57,6 +58,35 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    <!--carrousel end-->
+          <!--carrousel end-->
+          <footer>
+            <section id="kontak">
+                <p>© 2024 Blog Yogi Ahmad D. All Rights Reserved.</p>
+                <div class="footer-bottom">
+                    <p>Email: <a href="mailto:yogiahmad417@gmail.com">yogiahmad417@gmail.com</a>.</p>
+                    <p>Telepon: 0813-9489-9332</p>
+                    <p>Alamat: <a href="https://maps.app.goo.gl/YjGddiYBtZbNySqw6" target="_blank">Jl. Lembur Picung-Patrol No.2, Kab. Bandung, Jawa Barat, Indonesia</a></p>
+                    <form action="#" method="POST">
+                        <label for="nama">Nama:</label>
+                        <input type="text" id="nama" name="nama" required>
+    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+    
+                        <label for="pesan">Pesan:</label>
+                        <textarea id="pesan" name="pesan" rows="4" required></textarea>
+    
+                        <button type="submit">Kirim</button>
+                    </form>
+    
+                    <div class="social-icons">
+                      <a class="social-icon" href="https://www.linkedin.com/in/yogi-ahmad-dimyati-7297a330a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                      <a class="social-icon" href="https://github.com/yogiahmad17/yogiahmad17.github.io"><i class="fab fa-github"></i></a>
+                      <a class="social-icon" href="https://www.facebook.com/profile.php?id=61560464424949&mibextid=ZbWKwL"><i class="fab fa-twitter"></i></a>
+                      <a class="social-icon" href="https://x.com/Yogi_i_i_i?t=2miRhPq34rleyu-CnjyyXA&s=09"><i class="fab fa-facebook-f"></i></a>
+                  </div>
+                </div>
+            </section>
+        </footer>
 </body>
 </html>
