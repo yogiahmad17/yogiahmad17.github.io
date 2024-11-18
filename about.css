@@ -35,7 +35,7 @@ p.lead {
   font-size: 1.5rem;
 }
 
-/* Side Navigation */
+
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -51,7 +51,6 @@ p.lead {
   outline-color: #b19c95;
 }
 
-/* Responsif SideNav */
 @media (min-width: 992px) {
   #sideNav {
       padding-left: 0;
@@ -103,7 +102,7 @@ p.lead {
   }
 }
 
-/* Social Icons */
+
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
@@ -125,12 +124,12 @@ p.lead {
   background-color: #0b5ffc;
 }
 
-/* Development Icons */
+
 .dev-icons {
   font-size: 3rem;
 }
 
-/* Resume Section */
+
 section.resume-section {
   display: flex;
   align-items: center;
@@ -159,16 +158,14 @@ section.resume-section .resume-section-content {
       padding-bottom: 5rem;
   }
 }
-
-/* Tombol dengan gambar sebagai latar belakang */
 .project-button {
   display: inline-block;
   text-decoration: none;
   padding: 10rem 15rem;
-  background-image: url('images/projek.png'); /* Gambar sebagai latar belakang */
-  background-size: cover; /* Pastikan gambar mengisi tombol */
+  background-image: url('images/projek.png');
+  background-size: cover;
   background-position: center;
-  color: white; /* Teks putih */
+  color: white;
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
@@ -178,7 +175,6 @@ section.resume-section .resume-section-content {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Menambahkan overlay transparan agar teks lebih jelas terbaca */
 .project-button:before {
   content: '';
   position: absolute;
@@ -186,59 +182,51 @@ section.resume-section .resume-section-content {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3); /* Overlay hitam transparan */
+  background-color: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
 
-/* Menambahkan teks di atas gambar */
 .project-button .button-text {
   position: relative;
-  z-index: 2; /* Agar teks berada di atas overlay */
+  z-index: 2;
   font-size: 1.4rem;
   font-weight: bold;
 }
 
-/* Efek hover pada tombol */
 .project-button:hover {
-  transform: scale(1.05); /* Efek tombol membesar saat hover */
+  transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Gaya untuk gambar bendera */
 .flag-icon {
-  width: 30px;  /* Ukuran gambar bendera */
-  height: 20px;  /* Ukuran tinggi bendera agar proporsional */
-  vertical-align: middle;  /* Menjaga bendera sejajar dengan teks */
-  margin-right: 12px;  /* Jarak antara gambar dan teks */
-  border-radius: 3px;  /* Menambahkan sedikit radius pada sudut gambar agar lebih halus */
-  transition: transform 0.3s ease;  /* Efek transisi saat gambar di-hover */
+  width: 30px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 12px;
+  border-radius: 3px;
+  transition: transform 0.3s ease;
 }
 
-/* Efek saat hover gambar bendera */
 .flag-icon:hover {
-  transform: scale(1.1);  /* Memperbesar gambar saat di-hover */
+  transform: scale(1.1);
 }
 
-/* Gaya untuk daftar bahasa */
 .fa-ul {
-  list-style-type: none;  /* Menghilangkan bullet point */
+  list-style-type: none;
   padding-left: 0;
 }
 
-/* Gaya untuk item bahasa */
 .fa-ul li {
-  font-size: 1.2rem;  /* Ukuran font yang lebih besar agar lebih mudah dibaca */
+  font-size: 1.2rem;
   line-height: 1.6;
   padding: 8px 0;
 }
 
-/* Gaya untuk teks bahasa */
 .fa-li {
   display: inline-flex;
   align-items: center;
 }
 
-/* Menambahkan sedikit margin dan padding pada seluruh section */
 .resume-section-content {
   padding: 1rem;
 }
@@ -249,7 +237,6 @@ h2.mb-5 {
   margin-bottom: 20px;
 }
 
-/* Sertifikasi Gambar */
 #awards .resume-section-content ul.fa-ul img {
   max-width: 100%; 
   height: auto; 
@@ -257,10 +244,9 @@ h2.mb-5 {
   margin-bottom: 1rem; 
 }
 
-/* Gambar Profil pada Mobile */
 @media (max-width: 767px) {
   #sideNav .navbar-brand .img-profile {
-      max-width: 6rem;
-      max-height: 6rem;
+    max-width: 6rem;
+    max-height: 6rem;
   }
 }
