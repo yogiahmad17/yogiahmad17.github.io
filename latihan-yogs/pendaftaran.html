@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PENDAFTARAN-LPKIA</title>
+    <link rel="stylesheet" href="pendaftaran.css">
+    <link rel="icon" type="image/png" href="c:\Users\WINDOWS 10\Pictures\Saved Pictures\download.png">
+<body>
+
+    <div class="form-container">
+        <h2>Form Pendaftaran Mahasiswa Baru</h2>
+        <form action="/submit" method="post">
+            <div class="form-group">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telp">Nomor Telepon:</label>
+                <input type="tel" id="telp" name="telp" required>
+            </div>
+
+            <div class="form-group">
+                <label for="alamat">Alamat:</label>
+                <textarea id="alamat" name="alamat" rows="3" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="program">Pilih Program Studi:</label>
+                <select id="program" name="program" required>
+                    <option value="informatika">S1 Teknik Informatika</option>
+                    <option value="sistem-informasi">S1 Sistem Informasi</option>
+                    <option value="komputerisasi-akuntansi">S1 Komputerisasi Akuntansi</option>
+                    <option value="administrasi-bisnis">S1 Administrasi Bisnis</option>
+                    <option value="d3-akuntansi">D3 Komputerisasi Akuntansi</option>
+                    <option value="d3-bisnis">D3 Administrasi Bisnis</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="jenis-kelamin">Jenis Kelamin:</label>
+                <select id="jenis-kelamin" name="jenis-kelamin" required>
+                    <option value="pria">Pria</option>
+                    <option value="wanita">Wanita</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Daftar Sekarang</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
+
+</body>
+</html>
